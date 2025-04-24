@@ -1,4 +1,4 @@
-# Java Data Stractures and Algorithm
+# Java Data Stractures & Algorithm
 
 Welcome to my **Java Data Structures & Algorithms** progress repository! This repository serves as a collection of my notes, code, and problem-solving progress to aid in revision and preparation for interviews.
 
@@ -38,7 +38,13 @@ On macOS/Linux:
 ### Creating a Java Project Using an IDE
 - IntelliJ IDEA: `File -> New Project -> Java`
 - Eclipse: `File -> New -> Java Project`
-- VS Code: Install the Java Extension Pack and create a `.java` file.
+- VS Code: Install the **Java Extension Pack** in VS Code
+  1. Press `Ctrl + Shift + P` and select **Java: Create Java Project**
+  2. Choose a project type (e.g., `No build tools`)
+  3. Select a folder to create the project
+  4. Name your project
+  5. VS Code creates a basic structure:
+  6. Write your code in `App.java`
 
 ## Compiling and Running Java Programs
 
@@ -82,21 +88,6 @@ Hello, Java!
 - **Multithreading**: Supports concurrent execution.
 - **Secure**: Strong security features.
 
-## Useful Java Commands
-
-- Check Java version:
-  ```sh
-    java -version
-- Compile multiple Java files:
-  ```sh
-  javac *.java
-- Run a Java program:
-  ```sh
-  java ClassName
-- Generate Java documentation:
-  ```sh
-  javadoc -d docs Main.java
-
 ## Repository Structure
 - Each topic is organized in a separate `folder` for simplicity.
 - Files are named to match the topic name for easy identification.
@@ -104,58 +95,56 @@ Hello, Java!
 ## Repository Overview
 
 Topics covered (Links will be updated as files are added to the repository):
-| Main Topics             | DSA Practice                  |
-|----------------------------------|----------------------------------------|
-| [Flowcharts & Pseudocodes](./) | [Practice Section 1](./) |
-| [Variables & Data Types](./)  | [Practice Section 2](./) |
-| [Operators](./) | [Practice Section 3](./) |               
-| [Conditional Statements](./) | [Practice Section 4](./) |           
-| [Loops (Flow Control](./) | [Practice Section 5](./) |            
-| [Patterns (Part 1)](./) | [Practice Section 6](./) |    
-| [Functions & Methods](./) | [Practice Section 7](./) |
-| [Patterns (Part 2) - Advanced](./) | [Practice Section 8](./) |
-| [Arrays (Part 1)](./) | [Practice Section 9](./) |
-| [Arrays (Part 2)](./) | [Practice Section 10](./) |
-| [Basic Sorting Algorithms](./) | [Practice Section 11](./) |
-| [2D Arrays](./) | [Practice Section 12](./) |
-| [Strings](./) | [Practice Section 13](./) |
-| [Bit Manipulation](./) | [Practice Section 14](./) |   
-| [Object Oriented Programming (OOP)](./) | [Practice Section 15](./) |      
-| [Recursion Basics (Part 1)](./) | [Practice Section 16](./) |
-| [Recursion Basics (Part 2)](./) | [Practice Section 17](./) |
-| [Divide & Conquer](./) | [Practice Section 18](./) |
-| [Time & Space Complexity](./) | [Practice Section 19](./) |
-| [Backtracking](./) | [Practice Section 20](./) |
-| [ArrayLists](./) | [Practice Section 21](./) |
-| [Linked Lists (Part 1](./) | [Practice Section 22](./) |
-| [Linked Lists (Part 2](./) | [Practice Section 23](./) |
-| [Stacks (Part 1)](./) | [Practice Section 24](./) |
-| [Stacks (Part 2)](./) | [Practice Section 25](./) |   
-| [Queues](./) | [Practice Section 26](./) |        
-| [Greedy Algorithms](./) | [Practice Section 27](./) |       
-| [Binary Trees (Part 1)](./) | [Practice Section 28](./) |        
-| [Binary Trees (Part 2)](./) | [Practice Section 29](./) |  
-| [Binary Trees (Part 3)](./) | [Practice Section 30](./) |  
-| [Binary Search Trees (Part 1)](./) | [Practice Section 31](./) | 
-| [Binary Search Trees (Part 2)](./) | [Practice Section 32](./) | 
+| Main Topics                                       |
+|---------------------------------------------------|
+| [Flowcharts & Pseudocodes](./Flowcharts%20%26%20Pseudocodes) |
+| [Variables & Data Types](./Variables%20%26%20Data%20Types) |
+| [Operators](./) |            
+| [Conditional Statements](./) |        
+| [Loops (Flow Control](./) |        
+| [Patterns (Part 1)](./) |
+| [Functions & Methods](./) |
+| [Patterns (Part 2) - Advanced](./) |
+| [Arrays (Part 1)](./) |
+| [Arrays (Part 2)](./) |
+| [Basic Sorting Algorithms](./) |
+| [2D Arrays](./) |
+| [Strings](./) |
+| [Bit Manipulation](./) |
+| [Object Oriented Programming (OOP)](./) |    
+| [Recursion Basics (Part 1)](./) |
+| [Recursion Basics (Part 2)](./) |
+| [Divide & Conquer](./) |
+| [Time & Space Complexity](./) |
+| [Backtracking](./) |
+| [ArrayLists](./) |
+| [Linked Lists (Part 1](./) |
+| [Linked Lists (Part 2](./) |
+| [Stacks (Part 1)](./) |
+| [Stacks (Part 2)](./) |  
+| [Queues](./) |       
+| [Greedy Algorithms](./) |    
+| [Binary Trees (Part 1)](./) |     
+| [Binary Trees (Part 2)](./) |
+| [Binary Trees (Part 3)](./) |
+| [Binary Search Trees (Part 1)](./) |
+| [Binary Search Trees (Part 2)](./) |
 | [Heaps](./) | [Practice Section 33](./) | 
 | [Hashing](./) | [Practice Section 34](./) | 
 | [Tries](./) | [Practice Section 35](./) |
-| [Graphs (Part 1)](./) | [Practice Section 36](./) | 
-| [Graphs (Part 2)](./) | [Practice Section 37](./) | 
-| | [Practice Section 38](./) | 
-| | [Practice Section 39](./) | 
-| | [Practice Section 40](./) | 
-| | [Practice Section 41](./) | 
-| | [Practice Section 42](./) | 
-| | [Practice Section 43](./) | 
-| | [Practice Section 44](./) | 
-| | [Practice Section 45](./) | 
-| | [Practice Section 46](./) | 
-| | [Practice Section 47](./) | 
-| | [Practice Section 48](./) | 
-| | [Practice Section 49](./) | 
-| | [Practice Section 50](./) | 
+| [Graphs (Part 1)](./) |
+| [Graphs (Part 2)](./) |
+| [Graphs (Part 3)](./) |
+| [Graphs (Part 4)](./) |
+| [Graphs (Part 5)](./) |
+| [Graphs - Supplemental](./) |
+| [DP (Part 1](./) |
+| [DP (Part 2](./) |
+| [DP (Part 3](./) |
+| [DP (Part 4](./) |
+| [DP (Part 5](./) |
+| [DP (Part 6](./) |
+| [Segment Trees](./) |
 
 ## 🌟 *Don’t Forget to Star!*
 If you find this repo useful, please consider giving it a star ⭐. It helps others discover it too!
