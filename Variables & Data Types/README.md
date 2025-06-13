@@ -246,13 +246,13 @@ public class TypePromotion2 {
 
 In Java, arithmetic operations on `byte`, `short`, and `char` are **promoted to `int`** automatically.
 
-### ❌ Wrong:
+### Wrong:
 ```java
 byte b = 5;
 b = b * 2; // Error: result is int, cannot assign to byte directly
 ```
 
-### ✅ Correct:
+### Correct:
 ```java
 byte b = 5;
 b = (byte) (b * 2); // Explicit cast required
@@ -263,14 +263,14 @@ b = (byte) (b * 2); // Explicit cast required
 - Result is `int`, and Java doesn’t auto-convert `int` back to `byte`
 - You must cast it manually using `(byte)`
 
-✅ Always cast manually when assigning arithmetic results back to `byte`, `short`, or `char`.
+Always cast manually when assigning arithmetic results back to `byte`, `short`, or `char`.
 
 ## How Java Code Runs
 1. **Write** code in a `.java` file.
 2. **Compile** using `javac` to convert it into **bytecode** (`.class` file).
 3. **Run** the bytecode with the **Java Virtual Machine (JVM)** using `java`.
 
-### 🔁 Flow:
+### Flow:
 ```
 .java → [javac] → .class → [JVM] → Output
 ```
@@ -279,4 +279,4 @@ b = (byte) (b * 2); // Explicit cast required
 - `javac` → Java Compiler
 - `java` → Java Interpreter (runs on JVM)
 
-✅ JVM makes Java **platform-independent**.
+JVM makes Java **platform-independent**.
