@@ -2,6 +2,8 @@
 Welcome to the **Java Programming & Data Structures/Algorithms** repository!  
 This repo is a complete collection of concepts, code, and problem-solving notes created while learning **Java** as the primary language.
 
+> If you find this repository useful, please give it a star! It helps others discover it too! ⭐
+
 ## About Java
 Java is a high-level, object-oriented programming language designed to have as few implementation dependencies as possible. It's known for:
 
@@ -109,14 +111,12 @@ This repository is built progressively as a learning companion through a structu
 ## Repository Overview
 > Continue adding entries as new topics are added to the repository.
 
-| Topics Covered                                    |
-|---------------------------------------------------|
+| Topics Covered  | Practice Sessions |
+|-----------------|-------------------|
 | [Flowcharts & Pseudocodes](./Flowcharts%20%26%20Pseudocodes) |
 | [Variables & Data Types](./Variables%20%26%20Data%20Types) |
 | [Operators](./Operators) |
 
 ## License
 This repository is licensed under the [MIT License](./LICENSE).
-
-## ⭐ Support
-If you find this helpful, give it a ⭐ on GitHub and feel free to fork it for your own learning journey!
+> This repository is for educational use only and adheres to fair use for coding practice and learning purposes.
