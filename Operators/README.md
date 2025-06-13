@@ -1,16 +1,16 @@
-# 🧮 Operators in Java
+# Operators in Java
 
 In Java, **operators** are symbols that instruct the compiler to perform specific operations on variables and values.
 
 
-## 📌 Example
+## Example
 ```java
 sum = a + b;
 // a, b are operands
 // + is an operator
 ```
 
-## 🔢 Types of Operators
+## Types of Operators
 
 - Arithmetic Operators (Binary / Unary)
 - Relational Operators
@@ -18,7 +18,7 @@ sum = a + b;
 - Bitwise Operators
 - Assignment Operators
 
-## ➕ Arithmetic Operators
+## Arithmetic Operators
 
 ### Binary Operators
 | Operator | Description       | Example    |
@@ -35,15 +35,15 @@ sum = a + b;
 | `++`     | Increment (Pre/Post)      | `++a`, `a++` |
 | `--`     | Decrement (Pre/Post)      | `--a`, `a--` |
 
-#### 🔼 Increment Operator
+#### Increment Operator
 - `++a`: Pre-increment → value changes, then used
 - `a++`: Post-increment → value used, then changes
 
-#### 🔽 Decrement Operator
+#### Decrement Operator
 - `--a`: Pre-decrement → value changes, then used
 - `a--`: Post-decrement → value used, then changes
 
-## 🔁 Relational Operators
+## Relational Operators
 
 | Operator | Description                | Example       |
 |----------|----------------------------|---------------|
@@ -54,7 +54,7 @@ sum = a + b;
 | `>=`     | Greater than or equal to   | `a >= b`      |
 | `<=`     | Less than or equal to      | `a <= b`      |
 
-## 🔀 Logical Operators
+## Logical Operators
 
 | Operator | Description   | Example         |
 |----------|---------------|-----------------|
@@ -84,7 +84,7 @@ sum = a + b;
 | T         | F      |
 | F         | T      |
 
-## 📝 Assignment Operators
+## Assignment Operators
 
 | Operator | Description             | Example     |
 |----------|-------------------------|-------------|
